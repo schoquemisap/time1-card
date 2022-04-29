@@ -1,0 +1,17 @@
+.CartaB1_{
+    background: var(--Light-red-work);
+    border-radius: 20px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    /*padding-top: 40px;*/
+    overflow: hidden; /*PARA QUE TODO LO QUE SALGA FUERA DE LA CAJA B1 se OCULTE*/
+    height: 155px;
+}
+.maleta{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -10px;
+    right: 18px;
+}

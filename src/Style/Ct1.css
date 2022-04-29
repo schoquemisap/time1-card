@@ -1,0 +1,21 @@
+
+.Ct1{
+    display: flex;
+    background:var(--Blue);
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+}
+.label{
+   margin-left: 20PX;
+   color: var(--Pale-Blue);
+}
+.Ct1 img{
+    width: 20%;
+    border-radius: 50%;
+    border: 2PX solid white;
+}
+.label p:nth-child(2){
+    font-size: 30px;
+}
+.label p {margin: 5px 0;}

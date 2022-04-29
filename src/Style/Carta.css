@@ -1,0 +1,14 @@
+.Carta {
+    background: var(--Dark-blue);
+    border-radius: 20px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.label2{
+    display: flex;
+    justify-content: space-around;
+    color: var(--Pale-Blue);
+    padding:30px 0;
+}

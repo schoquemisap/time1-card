@@ -1,0 +1,30 @@
+.ClaseB2_{
+    background: var(--Dark-blue);
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    position: relative;
+    top: -42px;
+    padding-bottom: 43PX;
+    padding-top: 30px;
+}
+.ClaseB21{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-weight: 800;
+    align-items: center;
+    
+}
+.ClaseB22{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center; /*ALINEA EN IUNA RECTA EQUITATIVA*/
+}
+.ClaseB22 span{
+    margin-top: 8px;
+}
+.ClaseB22 span:first-child{
+   font-size: 26px;
+}
