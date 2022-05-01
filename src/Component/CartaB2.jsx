@@ -11,7 +11,7 @@ function CartaB2() {
         </div>
         <div className="ClaseB22">
             <span>32hrs</span>
-            <span>Last Week 32 - hrs</span>
+            <span>Last Week - 36hrs</span>
         </div>
     </div>
   )

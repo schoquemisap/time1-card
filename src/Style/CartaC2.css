@@ -1,0 +1,27 @@
+.CartaC2{
+    background: var(--Dark-blue);
+    border-radius: 20px;
+    position: relative;
+    top: -42px;
+    padding: 30px 20px; 
+}
+.CartaC2_1{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    font-weight: 500;
+}
+.CartaC2_2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    align-items: center;
+}
+.CartaC2_2 span:first-child{
+    color: white;
+    font-size: 26px;
+}
+.CartaC2_2 span:nth-child(2){
+    color: var(--Pale-Blue);
+}

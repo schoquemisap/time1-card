@@ -1,0 +1,27 @@
+.CartaE2{
+    background: var(--Dark-blue);
+    border-radius: 20px;
+    position: relative;
+    top: -14px;
+    padding: 30px 20px;
+}
+.CartaE2_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    color: white;
+}
+.CartaE2_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+.CartaE2_2 span:first-child{
+    color: white;
+    font-size: 26px;
+}
+.CartaE2_2 span:nth-child(2){
+    color: var(--Pale-Blue);
+}

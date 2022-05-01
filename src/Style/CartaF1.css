@@ -1,0 +1,16 @@
+.CartaF1{
+    background: var(--Violet-social);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.CartaF1_img{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -16px;
+    right: 18px;
+}

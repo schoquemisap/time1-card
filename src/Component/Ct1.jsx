@@ -7,8 +7,8 @@ function Ct1() {
     <div className="Ct1">
         <img src={imgCara} alt="" />
         <div className="label">
-        <p>Report for</p>
-        <p>Jeremy Robson</p>
+          <p>Report for</p>
+          <p>Jeremy Robson</p>
         </div>
     </div>
   )

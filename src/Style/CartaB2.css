@@ -2,29 +2,33 @@
     background: var(--Dark-blue);
     border-radius: 20px;
     padding: 20px;
-    align-items: center;
+    /* align-items: center; */
     position: relative;
     top: -42px;
-    padding-bottom: 43PX;
+    padding-bottom: 30px;
     padding-top: 30px;
 }
 .ClaseB21{
     display: flex;
     color: white;
     justify-content: space-between;
-    font-weight: 800;
+    font-weight: 500; /* conserva el ancho y alto de la img*/
     align-items: center;
     
 }
 .ClaseB22{
     display: flex;
-    color: white;
+    /* color: white; */
     justify-content: space-between;
-    align-items: center; /*ALINEA EN IUNA RECTA EQUITATIVA*/
+    align-items: center; /*ALINEA EN UNA RECTA EQUITATIVA*/
 }
 .ClaseB22 span{
     margin-top: 8px;
 }
 .ClaseB22 span:first-child{
    font-size: 26px;
+   color: white;
+}
+.ClaseB22 span:nth-child(2){
+    color: var(--Pale-Blue);
 }

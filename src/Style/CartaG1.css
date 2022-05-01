@@ -1,0 +1,16 @@
+.CartaG1{
+    background: var(--Soft-orange-self-care);
+    width: 90%;
+    margin: 0 auto;
+    height: 150px;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.CartaG1_img{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 16px;
+    top: -11px;
+}

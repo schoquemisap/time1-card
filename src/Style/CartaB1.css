@@ -6,7 +6,8 @@
     margin-top: 20px;
     /*padding-top: 40px;*/
     overflow: hidden; /*PARA QUE TODO LO QUE SALGA FUERA DE LA CAJA B1 se OCULTE*/
-    height: 155px;
+    height: 150px;
+    margin-bottom: 20px;
 }
 .maleta{
     display: flex;
