@@ -1,5 +1,4 @@
 .CartaB1_{
-    background: var(--Light-red-work);
     border-radius: 20px;
     width: 90%;
     margin: 0 auto;
@@ -8,11 +7,36 @@
     overflow: hidden; /*PARA QUE TODO LO QUE SALGA FUERA DE LA CAJA B1 se OCULTE*/
     height: 150px;
     margin-bottom: 20px;
+    display: grid;
+    height: 135px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:30% 70%;
+}
+.fondoNaranja{
+    background: var(--Light-red-work);
+}
+.fondoCeleste{
+    background: var(--Soft-blue-play);
+}
+.fondoRojo{
+    background: var(--Light-red-study);
+}
+.fondoVerde{
+    background: var(--Lime-green-exercise-);
+}
+.fondoMora{
+    background: var(--Violet-social);
+}
+.fondoAmarillo{
+    background: var(--Soft-orange-self-care);
 }
 .maleta{
-    display: flex;
-    justify-content: flex-end;
+    grid-column: 1/3;
+    display: grid;
+    justify-content: end;
+}
+.maletaB {
     position: relative;
-    top: -10px;
-    right: 18px;
+    top: -17px;
+    right: 20px;
 }

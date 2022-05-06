@@ -1,16 +1,20 @@
 import "../Style/CartaB1.css"
-import Maleta_og from "../images/icon-work.svg"
 import { CartaB2 } from './CartaB2'
 import React from 'react'
 
-function CartaB1() {
+function CartaB1(props) {
+  const img = props.img
+  const back = 'CartaB1_ ' + props.back
+  const time = props.time
+  const name = props.name
+  const last = props.last
   return (
 
-    <div className="CartaB1_">  
+    <div className={back}>  
       <div className="maleta">
-       <img src={Maleta_og} alt="" /> 
+       <img src={img} className="maletaB" alt="" /> 
       </div> 
-       <CartaB2/>
+       <CartaB2 time = {time} name = {name} last = {last}/>
     </div>
   )
 }
